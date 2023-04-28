@@ -8,11 +8,11 @@ from visa.pipeline.pipeline import Pipeline
 
 def main():
     try:
-        pass
         pipeline = Pipeline()
         pipeline.run_pipeline()
     except Exception as e:
         logging.error(f"{e}")
+        print(e)
 
-if __name__ =="main1":
+if __name__ =="__main__":
     main()
